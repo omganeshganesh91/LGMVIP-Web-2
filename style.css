@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: linear-gradient(to right, #bf83fb,white, #ef88f0 );
+  }
+  
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    background-color: greenyellow;
+    box-shadow: 0px 10px 15px 0px rgba(95, 199, 164, 0.5);
+  }
+  h3{
+    text-align:right;
+    font-size:x-large;
+    font-family: "Times New Roman", cursive;
+    word-spacing: 15% ;
+    letter-spacing:3px;
+  }
+  #nav-btn{
+    padding: 15px;
+    font-family: "Times New Roman",cursive;
+    font-style: oblique;
+    font-variant: small-caps;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    background-color: #47c0e1;  
+  }
+  
+  .logo-text a,
+  .cta {
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #c6dbe2;
+    text-decoration: none;
+  }
+  
+  .cta {
+    padding: 9px 25px;
+    background-color: rgb(255, 89, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: progress;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(255, 42, 0, 0.8);
+  }
+  
+  .cards {
+    display: table;
+  }
+  
+  .card {
+    font-family: "Times New Roman", cursive;
+    width: 430px;
+    overflow: hidden;
+    background: rgb(207, 224, 180);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .profile-image img {
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -85px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid rgb(238, 219, 219);
+    transition-duration: 0.4s;
+    transition-property: transform;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-content h3,
+  .card-content h2 {
+    font-size: 30px;
+    text-align: right ;
+    margin-bottom: 11px;
+  }
+  /* logo */
+  .logo{
+    width:10%;
+    display: inline;
+    border-radius: 100%;
+  }
